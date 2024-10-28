@@ -1,1 +1,17 @@
 Hello
+create table employee(id integer, name varchar(10), depno integer,city varchar(50));
+insert into employee values(1,'Vijay',1,'Mathura');
+insert into employee values(2,'Ajay',2,'Agra');
+insert into employee values(3,'Ayushi',3,'Agra');
+insert into employee values(4,'Paras',4,'Mathura');
+insert into employee values(5,'Nidhi',5,'Agra');
+select * from employee;
+
+create table department(depno integer, dname varchar(50), description varchar(100));
+insert into department values(1,'HR','HR Department');
+insert into department values(2,'IT','IT Department');
+insert into department values(3,'Support','Support Department');
+insert into department values(4,'CSE','CSE Department');
+insert into department values(5,'Admin','Admin Department');
+select * from department;
+alter table Department add  city varchar(50);
